@@ -6,7 +6,9 @@ async function getSurah(){
         .then((response)=>response.json())
         .then((surah)=>
         {
-            console.log(surah.data[0]['englishName'])
+            surah.data.forEach(surah => {
+                console.log(surah['englishName']);
+            });
         }
         )
     
