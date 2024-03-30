@@ -1,6 +1,7 @@
 console.log(document.getElementById("title").innerHTML);
 
 
+// get all the names of the surah in english
 async function getSurah(){
     await fetch("http://api.alquran.cloud/v1/surah")
         .then((response)=>response.json())
@@ -10,9 +11,7 @@ async function getSurah(){
                 console.log(surah['englishName']);
             });
         }
-        )
-    
-    
+        );
 }
 
 
