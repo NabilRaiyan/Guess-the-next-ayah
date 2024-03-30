@@ -14,7 +14,7 @@ async function getSurah(){
         );
 }
 
-
+// get all surah button
 const allSurahBtn = document.getElementById("getSurah");
 allSurahBtn.addEventListener('click', getSurah);
 
