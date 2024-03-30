@@ -9,7 +9,6 @@
     <h1 id="title">Hello</h1>
 
     <button id="getSurah">All Surah</button>
-
     <script src="../controllers/api_call.js"></script>
 </body>
 </html>
