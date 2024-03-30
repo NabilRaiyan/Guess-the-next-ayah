@@ -7,7 +7,6 @@
 </head>
 <body>
     
-
     <h1 id="title">Hello</h1>
 
     <button id="getSurah">All Surah</button>
