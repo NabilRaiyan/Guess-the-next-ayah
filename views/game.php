@@ -12,6 +12,6 @@
 
     <button id="getSurah">All Surah</button>
 
-    <script src="index.js"></script>
+    <script src="../controllers/api_call.js"></script>
 </body>
 </html>
